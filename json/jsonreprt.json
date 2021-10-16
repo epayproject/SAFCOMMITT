@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-16T13:14:53.516Z",
+        "line": 4,
+        "name": "Check login is successful with valid user",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3217790900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on B2C test harness page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_is_on_b2c_test_harness_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 749024100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"CIAM Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CIAM Test",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.LoginSteps.user_clicks_on_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46007000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on sign in",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_clicks_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7674441700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters his username and clicks on signin",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_enters_his_username_and_clicks_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2020276900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters his password and clicks on signin",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_enters_his_password_and_clicks_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should login successfully",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]

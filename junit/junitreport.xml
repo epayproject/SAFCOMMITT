@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.015">
+    <testcase classname="feature to test login functionality" name="Check login is successful with valid user" time="13.79">
+        <system-out><![CDATA[Given user is on B2C test harness page......................................passed
+When user clicks on "CIAM Test".............................................passed
+And User clicks on sign in..................................................passed
+And user enters his username and clicks on signin...........................passed
+And user enters his password and clicks on signin...........................passed
+Then user should login successfully.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
